@@ -16,17 +16,17 @@ const Sidebar: React.FC<ISidebarProps> = ({
   setIsSidebarOpen,
 }) => {
   const [arrow, setArrow] = useState(<ArrowLeft />);
-  const [logoPath, setLogoPath] = useState("src/assets/Logo.svg");
+  const [logoPath, setLogoPath] = useState("assets/Logo.svg");
   const toggleSidebar = () => {
     setIsSidebarOpen((prevState) => !prevState);
   };
   useEffect(() => {
     if (isSidebarOpen) {
       setArrow(<ArrowRight />);
-      setLogoPath("src/assets/logo_small.svg");
+      setLogoPath("assets/logo_small.svg");
     } else {
       setArrow(<ArrowLeft />);
-      setLogoPath("src/assets/Logo.svg");
+      setLogoPath("assets/Logo.svg");
     }
   }, [isSidebarOpen]);
 
