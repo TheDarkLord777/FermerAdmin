@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2px;
+
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+}
+
+#root {
+    overflow: hidden;
+    --sidebar-size: 256px;
+    --header-size: calc(100% - var(--sidebar-size));
+
+
+}
+
+.light-mode {
+    --greyscale-50: #FAFAFA;
+    --greyscale-100: #F9FAFB;
+    --greyscale-300: #EEEFF2;
+    --greyscale-500: #A0AEC0;
+    --greyscale-900: #111827;
+    --greyscale-700: #323B49;
+    --greyscale-800: #1F2937;
+    --greyscale-600: #718096;
+    --greyscale: #F1F2F4;
+    --white: #ffffff;
+    --color-F8F8F8: #F8F8F8;
+}
+
+.dark-mode {
+    --greyscale-50: #FAFAFA;
+    --greyscale-100: #F9FAFB;
+    --greyscale-300: #EEEFF2;
+    --greyscale-500: #687588;
+    --greyscale-900: #111827;
+    --greyscale-800: #FFFFFF;
+    --greyscale-600: #718096;
+    --greyscale: #F1F2F4;
+    --white: #323B49;
+    --color-F8F8F8: #111827;
+}
+
+@font-face {
+    font-family: 'ALS Agrofont Regular';
+    src: url('src/assets/fonts/ALSAgrofont-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Agrofont Medium';
+    src: url('src/assets/fonts/ALSAgrofont-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Agrofont Black';
+    src: url('src/assets/fonts/ALSAgrofont-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Agrofont BoldExpanded';
+    src: url('src/assets/fonts/ALSAgrofont-BoldExpanded.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Agrofont Bold';
+    src: url('src/assets/fonts/ALSAgrofont-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url('src/assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
