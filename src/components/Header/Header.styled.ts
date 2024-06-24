@@ -48,10 +48,12 @@ export const SearchByLoginAndEmail = styled.input`
   }
 `;
 export const Bell = styled(BellIcon)`
+  fill: var(--greyscale-900);
+`;
+export const BellHolder = styled.div`
   width: 24px;
   height: 24px;
   margin: 0 12px;
-  fill: var(--greyscale-900);
 `;
 export const VerticalLine = styled.hr`
   width: 1px;

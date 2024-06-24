@@ -1,5 +1,6 @@
 import {
   Bell,
+  BellHolder,
   HeaderLeftSide,
   HeaderLeftSideInside,
   HeaderStyled,
@@ -37,7 +38,10 @@ const Header: React.FC = () => {
           <SearchByLoginAndEmail placeholder={"Поиск по логину/email"} />
           <SearchIcon size={20} />
         </HeaderLeftSideInside>
-        <Bell />
+        <BellHolder>
+          <Bell />
+        </BellHolder>
+
         <VerticalLine />
         <Account />
       </HeaderLeftSide>
