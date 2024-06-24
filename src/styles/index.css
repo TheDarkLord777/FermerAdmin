@@ -61,42 +61,42 @@
 
 @font-face {
     font-family: 'ALS Agrofont Regular';
-    src: url('src/assets/fonts/ALSAgrofont-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/ALSAgrofont-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ALS Agrofont Medium';
-    src: url('src/assets/fonts/ALSAgrofont-Medium.ttf') format('truetype');
+    src: url('../assets/fonts/ALSAgrofont-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ALS Agrofont Black';
-    src: url('src/assets/fonts/ALSAgrofont-Black.ttf') format('truetype');
+    src: url('../assets/fonts/ALSAgrofont-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ALS Agrofont BoldExpanded';
-    src: url('src/assets/fonts/ALSAgrofont-BoldExpanded.ttf') format('truetype');
+    src: url('../assets/fonts/ALSAgrofont-BoldExpanded.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ALS Agrofont Bold';
-    src: url('src/assets/fonts/ALSAgrofont-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/ALSAgrofont-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Gilroy Bold";
-    src: url('src/assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
