@@ -13,11 +13,7 @@ export const SidebarStyled = styled.aside<{ $isSidebarOpen: boolean }>`
   transition-duration: 0.5s;
   ${(props) => props["$isSidebarOpen"] && `width:80px`}
 `;
-export const Logo = styled.img`
-  user-select: none;
-  -webkit-user-drag: none;
-  pointer-events: none;
-`;
+
 export const ArrowLeft = styled(LeftArrow)`
   fill: var(--greyscale-900);
 `;
